@@ -86,5 +86,16 @@ lionRouter.put("/:id",(req,res)=>{
     }
 })
 
+lionRouter.delete("/:id",(req,res)=>{
+    try{
+        var objIndex = _.findIndex(lions,{id:req.params.id});
+        var data = _.remove(lions,lions[objIndex]);
+        res.json(data)
+    }catch{
+
+    }
+})
+
+
 
 module.exports = lionRouter;

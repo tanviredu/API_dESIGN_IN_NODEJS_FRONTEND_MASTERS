@@ -86,5 +86,16 @@ tigerRouter.put("/:id",(req,res)=>{
     }
 })
 
+tigerRouter.delete("/:id",(req,res)=>{
+    try{
+        var objIndex = _.findIndex(tigers,{id:req.params.id});
+        var data = _.remove(tigers,tigers[objIndex]);
+        res.json(data)
+    }catch{
+
+    }
+})
+
+
 
 module.exports = tigerRouter;
