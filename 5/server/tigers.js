@@ -40,6 +40,13 @@ tigerRouter.post('/', updateId, function(req, res) {
   res.json(tiger);
 });
 
+tigerRouter.delete('/:id', function(req, res) {
+    var tiger = _.findIndex(tigers, {id: req.params.id});
+    tigers.splice(tiger, 1);
+  
+    res.json(req.tiger);
+  });
+
 
 tigerRouter.put('/:id', function(req, res) {
   var update = req.body;
