@@ -20,8 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1368df8-670b-4121-a8ce-c6f1d7b0233c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/category/categoryController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/category/categoryModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/category/categoryRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/post/postController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/post/postModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/post/postRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/user/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/user/userModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/user/userRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/appMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/createRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/createRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/category/categoryController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/category/categoryModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/category/categoryRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/post/postController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/post/postModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/post/postRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/user/userController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/user/userModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/user/userRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/appMiddleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/createRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +73,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,6 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604760309713</updated>
       <workItem from="1604760313689" duration="16741000" />
+      <workItem from="1604792999131" duration="13374000" />
+      <workItem from="1604837179559" duration="59000" />
     </task>
     <servers />
   </component>
@@ -83,6 +115,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -164,14 +197,18 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1259" height="325" key="GridCell.Tab.3.right/1280.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1604779720323" />
-    <state x="140" y="135" key="SettingsEditor" timestamp="1604760494182">
+    <state x="106" y="229" key="SettingsEditor" timestamp="1604823604206">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="140" y="135" key="SettingsEditor/1280.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1604760494182" />
+    <state x="106" y="229" key="SettingsEditor/1280.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1604823604206" />
     <state x="191" y="137" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604779686893">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="191" y="137" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1280.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1604779686893" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1604830004753">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/1280.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1604830004753" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
